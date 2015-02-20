@@ -7,7 +7,7 @@
 
 #include "Command.h"
 
-Command::Command() {
+Command::Command(string) {
 	// TODO Auto-generated constructor stub
 
 }

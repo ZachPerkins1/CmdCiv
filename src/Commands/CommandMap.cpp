@@ -16,3 +16,7 @@ CommandMap::~CommandMap() {
 	// TODO Auto-generated destructor stub
 }
 
+void CommandMap::addAlias(string alias, Command* cmd) {
+	aliasList.push_back(new Alias(alias, cmd));
+}
+

@@ -9,6 +9,7 @@
 #define SRC_COMMANDS_COMMANDMAP_H_
 
 #include <vector>
+
 #include "Alias.h"
 
 class CommandMap {
@@ -16,6 +17,7 @@ public:
 	CommandMap();
 	virtual ~CommandMap();
 
+	void addAlias(string alias, Command* cmd);
 private:
 	std::vector<Alias*> aliasList;
 

@@ -17,5 +17,5 @@ CommandDispatcher::~CommandDispatcher() {
 }
 
 void CommandDispatcher::addAliases(CommandMap* map) {
-	std::printf("Warning! Default addAliases command not overwritten!\n");
+	io::warn("Default addAliases command not overwritten!");
 }

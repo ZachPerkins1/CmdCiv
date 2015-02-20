@@ -11,6 +11,7 @@
 #include <vector>
 #include <cstdio>
 
+#include "IOManager.h"
 #include "Commands/Command.h"
 #include "Commands/CommandMap.h"
 

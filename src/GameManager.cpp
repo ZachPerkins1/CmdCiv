@@ -19,7 +19,6 @@ GameManager::~GameManager() {
 }
 
 void GameManager::addAliases(CommandMap* map) {
-
 }
 
 
